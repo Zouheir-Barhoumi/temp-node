@@ -1,5 +1,8 @@
 const { readFile } = require("fs");
-const { resolve } = require("path");
+
+// Get the text from ./content/first.txt
+// Use promise to get the text asyncrounously
+// Display the text
 
 const getText = (path) => {
   return new Promise((resolve, reject) => {
